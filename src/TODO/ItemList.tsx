@@ -12,7 +12,6 @@ const {dataFetch}  = DispatchHook()
 useEffect(() => {
     dataFetch()
 }, [])
-// console.log(data)
 
 
     return(
